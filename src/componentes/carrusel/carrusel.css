@@ -1,0 +1,19 @@
+.container-fluid {
+    height: 50%;
+    width: 100%;
+    }
+    
+    .carousel-inner img {
+    height: auto;
+    max-height:500px;
+    }
+
+#carouselExampleIndicators{
+    padding: 30px;
+}
+.carousel-inner {
+    border-radius: 30px;
+}
+
+
+   

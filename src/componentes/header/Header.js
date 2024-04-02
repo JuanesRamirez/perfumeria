@@ -1,12 +1,12 @@
 import React from "react"
 import './header.css'
 import LoginIcon from '@mui/icons-material/Login';
-import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
+import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import HomeIcon from '@mui/icons-material/Home';
-import LinkIcon from '@mui/icons-material/Link';
-import InventoryIcon from '@mui/icons-material/Inventory';
 import PersonIcon from '@mui/icons-material/Person';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -21,25 +21,23 @@ function Header() {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <OndemandVideoIcon/>
-                                <a className="nav-link" href="#">Tutoriales</a>
+                                <TrendingDownIcon/>
+                                <a className="nav-link " >Descuentos</a>
                             </li>
                             <li className="nav-item">
-                                <LinkIcon/>
-                                <a className="nav-link " >Referencias</a>
-                            </li>
-                            <li className="nav-item">
-                                <InventoryIcon/>
-                                <a className="nav-link " >Recursos</a>
+                                <LocalOfferIcon/>
+                                <a className="nav-link " >Productos</a>
                             </li>
                             <li className="nav-item">
                                 <PersonIcon/>
                                 <a className="nav-link " >Contacto</a>
                             </li>
+                            <Link to='/registro'>
                             <li className="nav-item">
                                 <PersonAddIcon/>
                                 <a className="nav-link " >Registrarse</a>
                             </li>
+                            </Link>
                             <li className="nav-item">
                                 <LoginIcon/>
                                 <a className="nav-link " >Iniciar Sesion</a>
