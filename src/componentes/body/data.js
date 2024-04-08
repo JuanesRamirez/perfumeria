@@ -19,14 +19,14 @@ export default [
     },
     {
         id: 2,
-        title: "perfume2",
-        description: "jsjsjsj",
+        title: "Maggie",
+        description: "Sabor a gallina",
         image: perfume2,
         precio: "30000"
     },
     {
         id: 3,
-        title: "perfume3",
+        title: "Milo",
         description: "jsjsjsj",
         image: perfume3,
         precio: "30000"

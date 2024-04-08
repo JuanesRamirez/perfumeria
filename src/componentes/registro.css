@@ -1,0 +1,23 @@
+.formulario{
+    font-family: 'Courier New', Courier, monospace;
+    font: 1.5rem;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+form{
+    border: solid rgb(59, 54, 54) 7px;
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button{
+    border-radius: 10px;
+    background-color: rgba(122, 207, 36, 0.733);
+}
