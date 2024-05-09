@@ -1,14 +1,21 @@
 import React from "react"
-import './header.css'
-import LoginIcon from '@mui/icons-material/Login';
+// import './header.css'
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
+//import { Link } from "react-router-dom";
+import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from "react-router-dom";
+import Cookie from "universal-cookie";
 
-function Header() {
+function Header2() {
+
+    const cookie = new Cookie();
+    const email = cookie.get('email');
+    const nombres = cookie.get('nombres');
+    const apellidos = cookie.get('apellidos');
+
     return (
         <div className="contenedor">
             <nav className="navbar navbar-expand-lg ">
@@ -32,18 +39,18 @@ function Header() {
                                 <PersonIcon/>
                                 <a className="nav-link " >Contacto</a>
                             </li>
-                            <Link to='/registro'>
+                            <Link to='/'>
                             <li className="nav-item">
-                                <PersonAddIcon/>
-                                <a className="nav-link " >Registrarse</a>
-                            </li>
+                                <LogoutIcon/>
+                                <a className="nav-link " >Cerrar sesion</a>
+                            </li>                                
                             </Link>
-                            <Link to='/login'>
-                            <li className="nav-item">
-                                <LoginIcon/>
-                                <a className="nav-link " >Login</a>
-                            </li>
-                            </Link>
+                            <h2>
+                                Bienvenido:
+                                <p>{nombres}</p>
+                                <p>{apellidos}</p>
+                                <p>{email}</p>
+                            </h2>
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -56,4 +63,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header2

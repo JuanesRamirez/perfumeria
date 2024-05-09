@@ -7,7 +7,7 @@
     margin: auto;
     padding: 100px;
 }
-form{
+.forma{
     border: solid rgb(59, 54, 54) 7px;
     border-radius: 10px;
     justify-content: space-around;
@@ -20,4 +20,7 @@ form{
 button{
     border-radius: 10px;
     background-color: rgba(122, 207, 36, 0.733);
+}
+p{
+    color: red;
 }

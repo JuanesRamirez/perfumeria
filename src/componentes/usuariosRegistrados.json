@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "identificacion": "1234567890",
+        "nombres": "ana",
+        "apellidos": "rojas",
+        "email": "alguieno@gmail.com",
+        "direccion": "qrtgwrttwrrewweqf",
+        "telefono": "1234567890",
+        "fechaNacimiento": "2024-04-17",
+        "password": "Juan1234",
+        "estado": "Activo",
+        "rol": "Usuario",
+        "fechaCreacion": "2024-04-22T18:52:41.470Z"
+    },
+    {
+        "id": 2,
+        "identificacion": "1234567891",
+        "nombres": "ante",
+        "apellidos": "sdfvarfv",
+        "email": "alguien@gmail.com",
+        "direccion": "rEAQYYARWY3U65THGHSX",
+        "telefono": "1234567889",
+        "fechaNacimiento": "2024-04-18",
+        "password": "Jose1234",
+        "estado": "Activo",
+        "rol": "Usuario",
+        "fechaCreacion": "2024-04-22T18:56:12.677Z"
+    },
+    {
+        "id": 3,
+        "identificacion": "1234567891",
+        "nombres": "asdas",
+        "apellidos": "asdffds",
+        "email": "alguien12@gmail.com",
+        "direccion": "rEAQYYARWY3U65THGHSX",
+        "telefono": "1234567899",
+        "fechaNacimiento": "2024-04-12",
+        "password": "Josa1234",
+        "estado": "Activo",
+        "rol": "Usuario",
+        "fechaCreacion": "2024-04-22T19:00:48.559Z"
+    },
+    {
+        "id": 4,
+        "identificacion": "1234567893",
+        "nombres": "caperucita",
+        "apellidos": "rojas",
+        "email": "caperucitarojas@gmail.com",
+        "direccion": "bosque de la cuarela manxana 4",
+        "telefono": "1234567893",
+        "fechaNacimiento": "2024-04-18",
+        "password": "Cape1234",
+        "estado": "Activo",
+        "rol": "Usuario",
+        "fechaCreacion": "2024-04-30T21:10:28.781Z"
+    }
+]
