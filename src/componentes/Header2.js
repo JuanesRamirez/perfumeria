@@ -14,7 +14,7 @@ function Header2() {
     const cookie = new Cookie();
     const email = cookie.get('email');
     const nombres = cookie.get('nombres');
-    const apellidos = cookie.get('apellidos');
+    // const apellidos = cookie.get('apellidos');
 
     return (
         <div className="contenedor">
@@ -48,7 +48,7 @@ function Header2() {
                             <h2>
                                 Bienvenido:
                                 <p>{nombres}</p>
-                                <p>{apellidos}</p>
+                                {/* <p>{apellidos}</p> */}
                                 <p>{email}</p>
                             </h2>
                         </ul>
