@@ -18,7 +18,7 @@ export default function GoogleOAuth() {
                     path: '/'
                 })
                 //console.log(CredentialResponse);
-                cookies.set('nombres',credentialResponseDecode.name,{
+                cookies.set('nombre',credentialResponseDecode.name,{
                     secure: true,
                     sameSite: 'None',
                     path: '/'
