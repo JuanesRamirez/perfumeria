@@ -15,69 +15,69 @@ export default [
         title: "Tentation",
         description: "Amaderado",
         image: perfume1,
-        precio: "250000"
+        precio: 250000
     },
     {
         id: 2,
         title: "Maggie",
         description: "Sabor a gallina",
         image: perfume2,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 3,
         title: "Milo",
         description: "jsjsjsj",
         image: perfume3,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 4,
         title: "perfume4",
         description: "jsjsjsj",
         image: perfume4,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 5,
         title: "perfume5",
         description: "jsjsjsj",
         image: perfume5,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 6,
         title: "perfume6",
         description: "jsjsjsj",
         image: perfume6,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 7,
         title: "perfume7",
         description: "jsjsjsj",
         image: perfume7,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 8,
         title: "perfume8",
         description: "jsjsjsj",
         image: perfume8,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 9,
         title: "perfume9",
         description: "jsjsjsj",
         image: perfume9,
-        precio: "30000"
+        precio: 30000
     },
     {
         id: 10,
         title: "perfume10",
         description: "jsjsjsj",
         image: perfume10,
-        precio: "30000"
+        precio: 30000
     },
 ]
