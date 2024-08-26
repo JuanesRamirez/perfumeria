@@ -54,5 +54,19 @@
         "estado": "Activo",
         "rol": "Usuario",
         "fechaCreacion": "2024-04-30T21:10:28.781Z"
+    },
+    {
+        "id": 5,
+        "identificacion": "1234567889",
+        "nombres": "andres",
+        "apellidos": "ramirez",
+        "email": "andres@gmail.com",
+        "direccion": "calle 4 numero 22",
+        "telefono": "3118800122",
+        "fechaNacimiento": "2024-08-07",
+        "password": "Andres123",
+        "estado": "Activo",
+        "rol": "Usuario",
+        "fechaCreacion": "2024-08-26T19:57:09.044Z"
     }
 ]

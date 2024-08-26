@@ -1,4 +1,4 @@
-import React from "react"
+ import React from "react"
 // import './header.css'
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
@@ -47,8 +47,7 @@ function Header2() {
                             </Link>
                             <h2>
                                 Bienvenido:
-                                <p>{nombres}</p>
-                                <p>{apellidos}</p>
+                                <p>{nombres}</p><p>{apellidos}</p>
                                 <p>{email}</p>
                             </h2>
                         </ul>
